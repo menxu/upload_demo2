@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    android:background="#fff"
+    android:layout_marginBottom="10dp"     
+    android:id="@+id/list_data_list_item_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+    <!-- android:clickable="true" -->
+    <RelativeLayout 
+        android:id="@+id/show_relativelayout"
+        android:background="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/data_item_title_iv_frush"
+           android:layout_width="50dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:gravity="center"
+           android:src="@android:drawable/ic_menu_directions" 
+       />
+       <TextView
+           android:layout_marginLeft="50dp"
+           android:id="@+id/data_item_title_tv"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:textColor="#000"
+           android:text="@string/app_name"
+           android:padding="10dp"
+           android:background="#aaa"
+           android:paddingRight="80dp"
+       />
+       <TextView
+           android:id="@+id/data_item_title_tv_go"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:textColor="#000"
+           android:text="da jia hao"
+           android:padding="10dp"
+           android:background="#abc"
+           android:layout_alignParentRight="true"
+       />
+    </RelativeLayout>
+    
+</RelativeLayout>
